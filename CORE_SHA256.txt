@@ -1,0 +1,9 @@
+Canonical file: MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md
+SHA-256: 9590c1d85360126333b495e508b3d7df25fd7b1844d538f47da4ddd9738f1184
+Source byte length: 113268
+Source line count (wc -l): 3682
+Internal specification version: 3.0
+Public repository release: v1.0.0
+Status: canonical / exact tested core
+
+The canonical file is intentionally preserved byte-for-byte. Any change to the canonical file requires an explicit future-version process and must not be silently merged into this release.
