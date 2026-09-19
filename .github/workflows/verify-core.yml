@@ -1,0 +1,43 @@
+name: Verify Canonical Core
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-core:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify exact canonical core
+        shell: bash
+        run: |
+          set -euo pipefail
+          FILE='MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md'
+          EXPECTED='bbb4d3682b03a7125f695ec2b4288e175ea9352eb77f7e05e84feec98ce17201'
+
+          test -f "$FILE"
+          ACTUAL="$(sha256sum "$FILE" | awk '{print $1}')"
+          BYTES="$(wc -c < "$FILE")"
+
+          echo "Canonical file: $FILE"
+          echo "Expected SHA-256: $EXPECTED"
+          echo "Actual SHA-256:   $ACTUAL"
+          echo "Bytes:            $BYTES"
+
+          if [ "$ACTUAL" != "$EXPECTED" ]; then
+            echo '::error::The canonical tested operating specification was modified. Do not edit it in the v1.0.0 line.'
+            exit 1
+          fi
+
+          if [ "$BYTES" -ne 113268 ]; then
+            echo '::error::Canonical byte length does not match the tested source.'
+            exit 1
+          fi
+
+          echo 'Canonical core integrity verified.'
