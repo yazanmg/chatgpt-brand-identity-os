@@ -1,0 +1,11 @@
+{
+  "name": "Brand Identity OS Importer Template",
+  "id": "1586019192026091999",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
