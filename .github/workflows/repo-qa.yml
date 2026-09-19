@@ -1,0 +1,91 @@
+name: Repository QA
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check Figma importer JavaScript syntax
+        run: node --check figma/importer-template/code.js
+
+      - name: Validate relative Markdown file links
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import sys
+          from urllib.parse import unquote
+
+          root = Path('.').resolve()
+          failures = []
+          pattern = re.compile(r'(?<!!)\[[^\]]*\]\(([^)]+)\)')
+
+          for md in root.rglob('*.md'):
+              text = md.read_text(encoding='utf-8')
+              for raw_target in pattern.findall(text):
+                  target = raw_target.strip()
+                  if not target:
+                      continue
+                  if target.startswith(('#', 'http://', 'https://', 'mailto:')):
+                      continue
+                  # Drop optional Markdown title: path "title"
+                  if ' "' in target:
+                      target = target.split(' "', 1)[0]
+                  target = unquote(target.split('#', 1)[0])
+                  if not target:
+                      continue
+                  candidate = (md.parent / target).resolve()
+                  try:
+                      candidate.relative_to(root)
+                  except ValueError:
+                      failures.append((md, raw_target, 'escapes repository root'))
+                      continue
+                  if not candidate.exists():
+                      failures.append((md, raw_target, 'target does not exist'))
+
+          if failures:
+              print('Broken relative Markdown links:')
+              for md, target, reason in failures:
+                  print(f' - {md.relative_to(root)} -> {target}: {reason}')
+              sys.exit(1)
+
+          print('Relative Markdown file links verified.')
+          PY
+
+      - name: Verify expected public project files exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(
+            README.md
+            MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md
+            CORE_SHA256.txt
+            LICENSE.md
+            NOTICE.md
+            CHANGELOG.md
+            CONTRIBUTING.md
+            docs/HOW_TO_USE.md
+            docs/HOW_IT_WORKS.md
+            docs/DISCOVERY_WORKFLOW.md
+            docs/FIGMA_WORKFLOW.md
+            docs/STRICT_MODE.md
+            docs/FAQ.md
+            case-studies/SAFRA.md
+            figma/importer-template/manifest.json
+            figma/importer-template/code.js
+            figma/importer-template/README.md
+          )
+          for file in "${files[@]}"; do
+            test -f "$file" || { echo "::error::Missing expected file: $file"; exit 1; }
+          done
+          echo 'Expected public project files verified.'
