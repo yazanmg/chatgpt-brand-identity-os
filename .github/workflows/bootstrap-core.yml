@@ -29,7 +29,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          EXPECTED='9590c1d85360126333b495e508b3d7df25fd7b1844d538f47da4ddd9738f1184'
+          EXPECTED='bbb4d3682b03a7125f695ec2b4288e175ea9352eb77f7e05e84feec98ce17201'
           ACTUAL="$(sha256sum MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md | awk '{print $1}')"
           echo "Expected: $EXPECTED"
           echo "Actual:   $ACTUAL"
