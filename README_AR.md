@@ -10,12 +10,16 @@
 [![Not Codex](https://img.shields.io/badge/not%20for-Codex-D53A27)](#chatgpt-وليس-codex)
 [![Core Integrity](https://github.com/yazanmg/chatgpt-brand-identity-os/actions/workflows/verify-core.yml/badge.svg)](https://github.com/yazanmg/chatgpt-brand-identity-os/actions/workflows/verify-core.yml)
 
+<p align="center">
+  <img src="./assets/brand-identity-os-hero.svg" alt="مسار ChatGPT Brand Identity OS من المحادثة إلى Figma القابل للتعديل" width="100%" />
+</p>
+
 ---
 
 > [!IMPORTANT]
 > ## هذا المشروع لمحادثات ChatGPT العادية — **وليس Codex**
 >
-> ارفع ملف الـ`.md` الأساسي في محادثة ChatGPT عادية مع أي معلومات أو ملفات لديك عن مشروعك. النظام يقود العمل من Discovery والبحث والاستراتيجية إلى الاتجاهات الإبداعية، ثم الإنتاج، Figma القابل للتعديل، QA والتسليم الاحترافي.
+> ارفع ملف الـ`.md` الأساسي في محادثة ChatGPT عادية مع أي معلومات أو ملفات لديك عن مشروعك. النظام يقود العمل من Discovery والبحث والاستراتيجية إلى الاتجاهات الإبداعية، الإنتاج، Figma القابل للتعديل، QA والتسليم الاحترافي.
 >
 > هذا المشروع **ليس** `AGENTS.md`، وليس Coding Agent rule set، وليس Workflow خاصًا بـCodex.
 
@@ -24,7 +28,7 @@
 >
 > Brand Board أو Moodboard أو PNG/JPG أو PDF أو Screenshot يمكن استخدامها للاستكشاف والعرض والموافقة، لكنها **ليست التسليم النهائي**.
 >
-> في الـProduction Workflow المعتمد هنا، النهاية المطلوبة هي **Professional Editable Figma Brand Identity Master File** حقيقي. وإذا تعذرت الكتابة المباشرة إلى Figma تقنيًا، يجب تسليم **Local Figma Development Importer** مجرّب يعيد بناء الملف القابل للتعديل داخل Figma Desktop.
+> النهاية المطلوبة هي **Professional Editable Figma Brand Identity Master File** حقيقي. وإذا تعذرت الكتابة المباشرة إلى Figma تقنيًا، يجب تسليم **Local Figma Development Importer** مجرّب يعيد بناء الملف القابل للتعديل داخل Figma Desktop.
 >
 > انسخ الشرط الإلزامي من **[شرط Figma النهائي](./docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md)** وأرسله مع ملف الـOperating System.
 
@@ -35,6 +39,15 @@
 **ChatGPT Brand Identity OS** هو Operating Specification مجرّب، Discovery-first، لإنشاء هوية بصرية احترافية كاملة باستخدام ChatGPT.
 
 هو ليس Prompt سريع لعمل Logo، وليس Prompt ينتهي عند صورة جميلة.
+
+<table>
+<tr>
+<td align="center" width="25%"><img src="./assets/icons/conversation.svg" width="64" alt="أيقونة المحادثة"><br><b>المحادثة</b><br><sub>ابدأ بما تعرفه</sub></td>
+<td align="center" width="25%"><img src="./assets/icons/discovery.svg" width="64" alt="أيقونة Discovery"><br><b>Discovery</b><br><sub>اسأل فقط عما ينقص</sub></td>
+<td align="center" width="25%"><img src="./assets/icons/brand-system.svg" width="64" alt="أيقونة Brand System"><br><b>Brand System</b><br><sub>Strategy → Identity → Rules</sub></td>
+<td align="center" width="25%"><img src="./assets/icons/editable-figma.svg" width="64" alt="أيقونة Figma قابل للتعديل"><br><b>Editable Figma</b><br><sub>تسليم إنتاجي حقيقي</sub></td>
+</tr>
+</table>
 
 الفكرة أن يتصرف ChatGPT كفريق Branding منظم: يفهم المشروع، يسأل فقط ما يحتاجه، يبحث، يبني اتجاهات إبداعية مختلفة فعلًا، يطوّر الاتجاه المختار إلى نظام متكامل، يختبره، ثم يحوله إلى أصول إنتاجية قابلة للتعديل وتسليم يمكن لمصمم أو مطور أن يكمل منه دون تخمين.
 
@@ -48,11 +61,7 @@
 
 ## لماذا أنشأنا هذا المشروع؟
 
-الطلب التقليدي:
-
-> «اعمل لي هوية بصرية لمشروعي»
-
-قد ينتهي هكذا:
+الطلب التقليدي قد ينتهي هكذا:
 
 ```text
 Logo Concept
@@ -62,30 +71,7 @@ Logo Concept
 → توقف
 ```
 
-لكن الهوية الاحترافية الكاملة قد تحتاج أيضًا إلى:
-
-- Brand Strategy
-- فهم الجمهور والفئة والسوق
-- Brand Architecture
-- Creative Territories مختلفة فعلًا
-- Logo System كامل
-- Clear Space وMinimum Size
-- Color Architecture
-- Typography hierarchy
-- Multilingual / RTL behavior
-- Iconography وGraphic Language
-- Product Family logic
-- App/Platform assets عند الحاجة
-- Accessibility validation
-- اختبار على Touchpoints حقيقية
-- Design Tokens عند الحاجة
-- Editable vectors
-- Figma Variables / Components / Styles
-- Production exports
-- Guidelines وGovernance
-- Handoff لا يحتاج معه الفريق إلى التخمين
-
-هذا الـRepository يجعل هذا المسار قابلًا للتكرار.
+لكن الهوية الاحترافية قد تحتاج أيضًا إلى Strategy، فهم الجمهور والسوق، Brand Architecture، Creative Territories مختلفة فعلًا، Logo System كامل، Color/Typography systems، Multilingual/RTL، Iconography، Product Family، Accessibility، Design Tokens، Editable Vectors، Figma Variables/Components/Styles، Production exports، Guidelines وHandoff مهني.
 
 ---
 
@@ -99,23 +85,9 @@ Logo Concept
 
 لا تبدأ هذا كـCodex coding task.
 
-## 3. ارفع ملف الـMD
+## 3. ارفع ملف الـMD ومواد المشروع
 
-وارفع معه أي شيء لديك عن المشروع، مثل:
-
-- اسم المشروع
-- فكرة بسطر واحد
-- Product Brief
-- Logo موجود
-- UI/UX أو Screenshots
-- Figma exports
-- Brand Guidelines سابقة
-- Product documentation
-- Website copy
-- Design Tokens
-- App Icons
-- Packaging
-- Multi-product architecture
+يمكنك البدء فقط باسم المشروع أو فكرة بسطر واحد، أو ترفع Product Brief، Logo موجود، UI/UX، Screenshots، Figma exports، Brand Guidelines، Website copy، Design Tokens، App Icons أو Multi-product architecture.
 
 لا تحتاج Professional Brief جاهز قبل البداية.
 
@@ -135,13 +107,11 @@ Use STRICT MODE.
 
 ## 5. أضف شرط Figma الإلزامي
 
-انسخ النص الموجود في:
+انسخ النص من:
 
 **[`docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md`](./docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md)**
 
-هذا هو الشرط الذي يمنع ChatGPT من اعتبار الصورة أو الـBrand Board النتيجة النهائية.
-
-الحالة النهائية المطلوبة:
+هذا هو الشرط الذي يمنع ChatGPT من اعتبار الصورة أو الـBrand Board التسليم النهائي.
 
 ```text
 اتجاه بصري معتمد
@@ -155,7 +125,7 @@ Professional Editable Figma Master
 QA + export-ready handoff
 ```
 
-إذا فشلت الكتابة المباشرة إلى Figma بسبب MCP/API/Quota/Plan/Connection، **ممنوع** الهبوط إلى PNG أو PDF كتسليم نهائي. يجب استخدام Local Figma Development Importer يعيد بناء النظام داخل Figma Desktop.
+إذا فشلت الكتابة المباشرة إلى Figma بسبب MCP/API/Quota/Plan/Connection، **ممنوع** الهبوط إلى PNG أو PDF. يجب استخدام Local Figma Development Importer يعيد بناء النظام داخل Figma Desktop.
 
 ## 6. أكمل المحادثة طبيعيًا
 
@@ -195,8 +165,6 @@ Real-touchpoint validation
         ↓
 Accessibility / Localization / Production QA
         ↓
-Tokens + Platform Assets عند الحاجة
-        ↓
 Canonical Editable Masters
         ↓
 Professional Editable Figma
@@ -212,6 +180,16 @@ FINAL
 
 ---
 
+## صورة جميلة مقابل ملف إنتاجي قابل للتعديل
+
+<p align="center">
+  <img src="./assets/flat-vs-figma.svg" alt="مقارنة بين Brand Board مسطحة وFigma Master قابل للتعديل" width="100%" />
+</p>
+
+الجهة اليسرى مفيدة للعرض والموافقة. الجهة اليمنى هي التسليم الإنتاجي: Vectors فعلية، Layers، Components، Variables/Styles وMaster Assets قابلة للتصدير.
+
+---
+
 ## تستطيع أن تبدأ بمعلومات قليلة جدًا
 
 مثال:
@@ -222,22 +200,7 @@ FINAL
 
 المفروض ألا يقفز النظام مباشرة إلى اللون والشعار. يبدأ بفهم العرض، الجمهور، البدائل، الاختلاف، الانطباع المطلوب، Touchpoints، القيود ومعيار النجاح.
 
-الأسئلة Adaptive: كل إجابة تؤثر على السؤال التالي.
-
 اقرأ **[Discovery Workflow بالعربي](./docs/ar/DISCOVERY_WORKFLOW.md)**.
-
----
-
-## البحث بثلاث مراحل
-
-**Pass A — الفئة والجمهور والسياق**  
-يفهم العالم الحقيقي الذي تدخل إليه العلامة.
-
-**Pass B — المشهد البصري والتميّز**  
-يفحص conventions، clichés، مخاطر التشابه، والفرص البصرية.
-
-**Pass C — المنصات والإنتاج وإمكانية الوصول**  
-يتحقق من القيود الفعلية التي يجب أن تتحملها الهوية.
 
 ---
 
@@ -245,19 +208,7 @@ FINAL
 
 > **Brand Board جميلة هي Presentation Artifact، وليست Editable Production Master.**
 
-الـFigma الاحترافي يجب أن يحتوي، حسب المشروع، على:
-
-- Vector masters
-- Pages و/أو Sections منظمة
-- Frames
-- Components وVariants المفيدة
-- Variables
-- Paint/Text Styles
-- Reusable graphic elements
-- Product/App icon masters
-- Design Tokens عند الحاجة
-- Export settings
-- Master Assets منفصلة عن Presentation frames
+الـFigma الاحترافي يجب أن يحتوي، حسب المشروع، على Vector masters، Pages/Sections منظمة، Frames، Components/Variants، Variables، Paint/Text Styles، reusable graphic elements، App/Product icon masters، Design Tokens وExport settings.
 
 مسار الاسترداد:
 
@@ -279,11 +230,7 @@ Local Figma Development Plugin fallback
 
 ## عندك هوية جاهزة وعاجبتك؟
 
-لا تعيد تصميمها فقط للحصول على Figma.
-
-استخدم Workflow التحويل إلى Figma مع الحفاظ على الاتجاه المعتمد:
-
-**[Approved Identity → Editable Figma](./examples/APPROVED_IDENTITY_TO_FIGMA.md)**
+لا تعيد تصميمها فقط للحصول على Figma. استخدم **[Approved Identity → Editable Figma](./examples/APPROVED_IDENTITY_TO_FIGMA.md)** لتحويل نفس الاتجاه المعتمد إلى Production System قابل للتعديل.
 
 ---
 
@@ -298,7 +245,6 @@ Local Figma Development Plugin fallback
 | ChatGPT web / desktop / mobile | ✅ |
 | Codex repository workflow | ❌ ليس الاستخدام المقصود |
 | بديل عن `AGENTS.md` | ❌ |
-| Coding-agent system prompt | ❌ |
 
 اقرأ **[ChatGPT وليس Codex](./docs/ar/CHATGPT_NOT_CODEX.md)**.
 
@@ -306,19 +252,7 @@ Local Figma Development Plugin fallback
 
 ## STRICT MODE
 
-`STRICT MODE` يرفع سقف الجودة، ومن ضمنه:
-
-- Discovery عندما يكون الـbrief غير كافٍ
-- قراءة الملفات قبل تكرار الأسئلة
-- عدم اختراع business facts
-- بحث بعمق يناسب المشروع
-- تبرير أي مرحلة يتم تجاوزها
-- إعادة التحقق من standards المتغيرة
-- Logo stress tests فعلية
-- Editable canonical sources
-- التحقق بعد Figma writes
-- عدم التحول إلى صور فقط عند فشل automation
-- منع `FINAL` قبل اجتياز completion gates
+`STRICT MODE` يفرض Discovery عند نقص الـbrief، قراءة الملفات قبل تكرار الأسئلة، عدم اختراع facts، بحث مناسب، stress tests، editable canonical sources، التحقق بعد Figma writes، وعدم التحول إلى صور فقط عند فشل automation.
 
 اقرأ **[STRICT MODE بالعربي](./docs/ar/STRICT_MODE.md)**.
 
@@ -326,11 +260,7 @@ Local Figma Development Plugin fallback
 
 ## تم اختباره على مشروع حقيقي
 
-تم تطوير هذا النظام بشكل تكراري أثناء عمل فعلي على الهوية، وليس كنص نظري مرة واحدة.
-
-تمت تجربة أكثر من Workflow، والـCanonical file الموجود هنا هو النسخة التي أعطت أفضل نتيجة عامة في الاختبارات، لذلك نحافظ عليها دون تعديل صامت.
-
-إحدى حالات الاختبار كانت منظومة سفر رقمية متعددة المنتجات، عربية/إنكليزية، RTL/LTR، مع UI/UX موجود، App Icons، Design Tokens ومتطلبات Figma editable handoff.
+تم تطوير النظام بشكل تكراري أثناء عمل فعلي. إحدى حالات الاختبار كانت منظومة سفر رقمية متعددة المنتجات، عربية/إنكليزية، RTL/LTR، مع UI/UX موجود، App Icons، Design Tokens ومتطلبات Figma editable handoff.
 
 اقرأ **[دراسة حالة Safra بالعربي](./case-studies/SAFRA_AR.md)**.
 
@@ -338,17 +268,7 @@ Local Figma Development Plugin fallback
 
 ## حماية الـCanonical Core
 
-الملف:
-
-```text
-MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md
-```
-
-محمي ببصمة SHA-256 موجودة في [`CORE_SHA256.txt`](./CORE_SHA256.txt).
-
-GitHub Actions يفحصها على Push وPull Request. تغيير Byte واحد يجعل فحص integrity يفشل.
-
-هيك نقدر نطور الشرح والأدوات حول الملف بدون أن نغيّر سرًا النسخة التي أثبتت نجاحها.
+`MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md` محمي ببصمة SHA-256 موجودة في [`CORE_SHA256.txt`](./CORE_SHA256.txt). GitHub Actions يفحصها على Push وPull Request، لذلك يمكننا تطوير الشرح والأدوات والواجهات حوله بدون تعديل النسخة المجربة.
 
 ---
 
@@ -359,34 +279,25 @@ GitHub Actions يفحصها على Push وPull Request. تغيير Byte واحد
 ├── MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md   # الملف الأصلي المجرب — لا يُعدّل
 ├── README.md                                    # English
 ├── README_AR.md                                 # العربية
+├── assets/                                      # الصور والأيقونات
 ├── docs/
 │   ├── FIGMA_REQUIRED_FINAL_OUTPUT.md
 │   └── ar/                                      # الشرح العربي
 ├── examples/
 ├── templates/
 ├── case-studies/
-│   ├── SAFRA.md
-│   └── SAFRA_AR.md
 ├── figma/importer-template/
 └── .github/workflows/
 ```
 
 ---
 
-## الترخيص
+## الترخيص والاستقلالية
 
 - **Canonical operating specification والتوثيق:** CC BY 4.0
 - **Code / automation examples:** MIT
 
-راجع [`LICENSE.md`](./LICENSE.md).
-
----
-
-## ملاحظة الاستقلالية
-
-هذا مشروع Open Source مستقل، وليس مشروعًا رسميًا من OpenAI أو ChatGPT أو Figma أو Apple أو Google أو Android، ولا تدعمه تلك الشركات رسميًا.
-
-يتم استخدام أسماء المنتجات لوصف بيئة الاستخدام فقط.
+هذا مشروع Open Source مستقل، وليس مشروعًا رسميًا من OpenAI أو ChatGPT أو Figma أو Apple أو Google أو Android.
 
 ---
 
