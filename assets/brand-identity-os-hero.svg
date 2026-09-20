@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
+<title id="title">ChatGPT Brand Identity OS workflow</title>
+<desc id="desc">From conversation and discovery through a complete brand system to an editable Figma handoff.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1714"/><stop offset="1" stop-color="#14201D"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-opacity=".22"/></filter>
+</defs>
+<rect width="1400" height="620" rx="36" fill="url(#bg)"/>
+<circle cx="1180" cy="80" r="210" fill="#D53A27" opacity=".08"/>
+<circle cx="180" cy="560" r="260" fill="#A259FF" opacity=".07"/>
+<text x="80" y="104" fill="#F3EEE3" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="3">CHATGPT BRAND IDENTITY OS</text>
+<text x="80" y="170" fill="#F3EEE3" font-family="Inter,Arial,sans-serif" font-size="52" font-weight="800">Conversation → System → Editable Figma</text>
+<text x="80" y="216" fill="#AEBAB4" font-family="Inter,Arial,sans-serif" font-size="23">Discovery-first branding workflow for normal ChatGPT conversations — not Codex.</text>
+
+<g filter="url(#shadow)">
+  <rect x="80" y="302" width="250" height="180" rx="28" fill="#F3EEE3"/>
+  <path d="M140 354h130a18 18 0 0 1 18 18v48a18 18 0 0 1-18 18h-63l-31 27 5-27h-41a18 18 0 0 1-18-18v-48a18 18 0 0 1 18-18z" fill="none" stroke="#14201D" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="170" cy="396" r="7" fill="#D53A27"/><circle cx="205" cy="396" r="7" fill="#D53A27"/><circle cx="240" cy="396" r="7" fill="#D53A27"/>
+  <text x="205" y="516" text-anchor="middle" fill="#F3EEE3" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">DISCOVER</text>
+
+  <rect x="410" y="302" width="250" height="180" rx="28" fill="#F3EEE3"/>
+  <circle cx="535" cy="390" r="54" fill="none" stroke="#14201D" stroke-width="8"/>
+  <path d="M535 344v92M489 390h92M503 358l64 64M567 358l-64 64" stroke="#D53A27" stroke-width="7" stroke-linecap="round"/>
+  <text x="535" y="516" text-anchor="middle" fill="#F3EEE3" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">RESEARCH</text>
+
+  <rect x="740" y="302" width="250" height="180" rx="28" fill="#F3EEE3"/>
+  <rect x="804" y="348" width="52" height="52" rx="12" fill="#14201D"/><rect x="875" y="348" width="52" height="52" rx="12" fill="#D53A27"/>
+  <rect x="804" y="419" width="52" height="24" rx="8" fill="#7D8E82"/><rect x="875" y="419" width="52" height="24" rx="8" fill="#D9D1C5"/>
+  <path d="M786 462h160" stroke="#14201D" stroke-width="8" stroke-linecap="round"/>
+  <text x="865" y="516" text-anchor="middle" fill="#F3EEE3" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">SYSTEMIZE</text>
+
+  <rect x="1070" y="302" width="250" height="180" rx="28" fill="#F3EEE3"/>
+  <rect x="1128" y="342" width="134" height="104" rx="18" fill="none" stroke="#14201D" stroke-width="8"/>
+  <circle cx="1128" cy="342" r="10" fill="#A259FF"/><circle cx="1262" cy="342" r="10" fill="#A259FF"/><circle cx="1128" cy="446" r="10" fill="#A259FF"/><circle cx="1262" cy="446" r="10" fill="#A259FF"/>
+  <path d="M1195 362v64M1163 394h64" stroke="#D53A27" stroke-width="8" stroke-linecap="round"/>
+  <text x="1195" y="516" text-anchor="middle" fill="#F3EEE3" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">EDITABLE FIGMA</text>
+</g>
+
+<path d="M330 392h80M660 392h80M990 392h80" stroke="#7D8E82" stroke-width="5" stroke-dasharray="10 12"/>
+<path d="M390 382l20 10-20 10M720 382l20 10-20 10M1050 382l20 10-20 10" fill="none" stroke="#D53A27" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<text x="80" y="572" fill="#83918A" font-family="Inter,Arial,sans-serif" font-size="18">A flat image may be a checkpoint. The professional end state is an editable production system.</text>
+</svg>
