@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+<title id="title">Flat image versus editable Figma handoff</title>
+<desc id="desc">Comparison showing a flattened brand board as an intermediate artifact and a structured editable Figma file as the required final deliverable.</desc>
+<rect width="1400" height="720" rx="34" fill="#F3EEE3"/>
+<text x="70" y="78" fill="#14201D" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800">Presentation checkpoint ≠ production handoff</text>
+<text x="70" y="118" fill="#58635E" font-family="Inter,Arial,sans-serif" font-size="21">A beautiful image may approve the direction. The final system must remain editable.</text>
+
+<g transform="translate(70 175)">
+  <rect width="560" height="440" rx="28" fill="#FFFFFF" stroke="#D9D1C5" stroke-width="3"/>
+  <rect x="28" y="28" width="504" height="330" rx="18" fill="#E9E3D8"/>
+  <rect x="52" y="52" width="210" height="100" rx="12" fill="#14201D"/>
+  <path d="M80 126c55-80 95 36 152-44" fill="none" stroke="#D53A27" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="82" cy="124" r="8" fill="#F3EEE3"/><circle cx="232" cy="82" r="8" fill="#F3EEE3"/>
+  <rect x="286" y="52" width="220" height="100" rx="12" fill="#FFFFFF"/>
+  <rect x="52" y="176" width="150" height="68" rx="12" fill="#D53A27"/>
+  <rect x="218" y="176" width="136" height="68" rx="12" fill="#7D8E82"/>
+  <rect x="370" y="176" width="136" height="68" rx="12" fill="#14201D"/>
+  <rect x="52" y="266" width="454" height="64" rx="12" fill="#FFFFFF"/>
+  <path d="M72 286h250M72 306h188" stroke="#B7AFA3" stroke-width="8" stroke-linecap="round"/>
+  <rect x="28" y="376" width="166" height="42" rx="21" fill="#D53A27"/>
+  <text x="111" y="404" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">FLAT IMAGE</text>
+  <text x="212" y="404" fill="#7F756C" font-family="Inter,Arial,sans-serif" font-size="18">PNG / JPG / PDF</text>
+  <circle cx="510" cy="397" r="18" fill="#D53A27"/><path d="M502 389l16 16M518 389l-16 16" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<path d="M665 390h70" stroke="#D53A27" stroke-width="8" stroke-linecap="round"/><path d="M718 370l22 20-22 20" fill="none" stroke="#D53A27" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g transform="translate(770 175)">
+  <rect width="560" height="440" rx="28" fill="#14201D"/>
+  <rect x="24" y="24" width="512" height="52" rx="12" fill="#1E2C28"/>
+  <circle cx="51" cy="50" r="8" fill="#D53A27"/><circle cx="77" cy="50" r="8" fill="#7D8E82"/><circle cx="103" cy="50" r="8" fill="#F3EEE3"/>
+  <rect x="24" y="94" width="126" height="256" rx="14" fill="#1A2622"/>
+  <path d="M42 125h88M42 157h66M42 189h80M42 221h58M42 253h92M42 285h70" stroke="#819087" stroke-width="7" stroke-linecap="round"/>
+  <rect x="168" y="94" width="368" height="256" rx="14" fill="#F3EEE3"/>
+  <rect x="194" y="120" width="130" height="88" rx="14" fill="#14201D"/>
+  <rect x="342" y="120" width="168" height="88" rx="14" fill="#FFFFFF"/>
+  <rect x="194" y="226" width="316" height="96" rx="14" fill="#FFFFFF" stroke="#D9D1C5" stroke-width="2"/>
+  <circle cx="194" cy="120" r="8" fill="#A259FF"/><circle cx="324" cy="120" r="8" fill="#A259FF"/><circle cx="194" cy="208" r="8" fill="#A259FF"/><circle cx="324" cy="208" r="8" fill="#A259FF"/>
+  <path d="M216 278h128M216 298h78" stroke="#7D8E82" stroke-width="7" stroke-linecap="round"/>
+  <rect x="24" y="376" width="194" height="42" rx="21" fill="#A259FF"/>
+  <text x="121" y="404" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">EDITABLE MASTER</text>
+  <text x="238" y="404" fill="#B7C3BD" font-family="Inter,Arial,sans-serif" font-size="18">Vectors · Components · Variables</text>
+  <circle cx="510" cy="397" r="18" fill="#4DBB84"/><path d="M500 397l7 7 14-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<text x="70" y="676" fill="#14201D" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Required end state:</text>
+<text x="270" y="676" fill="#58635E" font-family="Inter,Arial,sans-serif" font-size="22">professional editable Figma master — or a tested local importer when direct writing is blocked.</text>
+</svg>
