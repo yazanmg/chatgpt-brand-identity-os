@@ -59,22 +59,6 @@
 
 ---
 
-## لماذا أنشأنا هذا المشروع؟
-
-الطلب التقليدي قد ينتهي هكذا:
-
-```text
-Logo Concept
-→ Moodboard
-→ Brand Board جميلة
-→ PNG / PDF
-→ توقف
-```
-
-لكن الهوية الاحترافية قد تحتاج أيضًا إلى Strategy، فهم الجمهور والسوق، Brand Architecture، Creative Territories مختلفة فعلًا، Logo System كامل، Color/Typography systems، Multilingual/RTL، Iconography، Product Family، Accessibility، Design Tokens، Editable Vectors، Figma Variables/Components/Styles، Production exports، Guidelines وHandoff مهني.
-
----
-
 # البدء السريع
 
 ## 1. نزّل الملف الأساسي
@@ -88,8 +72,6 @@ Logo Concept
 ## 3. ارفع ملف الـMD ومواد المشروع
 
 يمكنك البدء فقط باسم المشروع أو فكرة بسطر واحد، أو ترفع Product Brief، Logo موجود، UI/UX، Screenshots، Figma exports، Brand Guidelines، Website copy، Design Tokens، App Icons أو Multi-product architecture.
-
-لا تحتاج Professional Brief جاهز قبل البداية.
 
 ## 4. أرسل رسالة البداية
 
@@ -107,9 +89,7 @@ Use STRICT MODE.
 
 ## 5. أضف شرط Figma الإلزامي
 
-انسخ النص من:
-
-**[`docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md`](./docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md)**
+انسخ النص من **[`docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md`](./docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md)**.
 
 هذا هو الشرط الذي يمنع ChatGPT من اعتبار الصورة أو الـBrand Board التسليم النهائي.
 
@@ -128,8 +108,6 @@ QA + export-ready handoff
 إذا فشلت الكتابة المباشرة إلى Figma بسبب MCP/API/Quota/Plan/Connection، **ممنوع** الهبوط إلى PNG أو PDF. يجب استخدام Local Figma Development Importer يعيد بناء النظام داخل Figma Desktop.
 
 ## 6. أكمل المحادثة طبيعيًا
-
-إذا المعلومات ناقصة، يجب على ChatGPT أن يسأل بدل أن يخترع. بعد اكتمال الـbrief ينتقل إلى البحث، الاستراتيجية، الاتجاهات، الإنتاج، Figma والتسليم.
 
 الدليل المفصل: **[طريقة الاستخدام بالعربي](./docs/ar/HOW_TO_USE.md)**.
 
@@ -163,8 +141,6 @@ Logo + Visual Identity System
         ↓
 Real-touchpoint validation
         ↓
-Accessibility / Localization / Production QA
-        ↓
 Canonical Editable Masters
         ↓
 Professional Editable Figma
@@ -190,17 +166,15 @@ FINAL
 
 ---
 
-## تستطيع أن تبدأ بمعلومات قليلة جدًا
+## وثائق وأمثلة عربية بالكامل
 
-مثال:
+- **[فهرس التوثيق العربي](./docs/ar/README.md)**
+- **[أمثلة الاستخدام بالعربي](./examples/ar/README.md)**
+- **[Templates بالعربي](./templates/ar/README.md)**
+- **[المساهمة بالمشروع — عربي](./CONTRIBUTING_AR.md)**
+- **[دراسة حالة Safra بالعربي](./case-studies/SAFRA_AR.md)**
 
-```text
-أريد علامة لخدمة توصيل قهوة لطلاب الجامعات.
-```
-
-المفروض ألا يقفز النظام مباشرة إلى اللون والشعار. يبدأ بفهم العرض، الجمهور، البدائل، الاختلاف، الانطباع المطلوب، Touchpoints، القيود ومعيار النجاح.
-
-اقرأ **[Discovery Workflow بالعربي](./docs/ar/DISCOVERY_WORKFLOW.md)**.
+وبالتالي بعد اختيار العربية من أعلى الصفحة، تقدر تتابع المسار التوثيقي كاملًا بالعربي. الاستثناء الوحيد المقصود هو ملف الـCanonical Core نفسه لأنه يبقى نفس النسخة المجربة حرفيًا.
 
 ---
 
@@ -210,27 +184,13 @@ FINAL
 
 الـFigma الاحترافي يجب أن يحتوي، حسب المشروع، على Vector masters، Pages/Sections منظمة، Frames، Components/Variants، Variables، Paint/Text Styles، reusable graphic elements، App/Product icon masters، Design Tokens وExport settings.
 
-مسار الاسترداد:
-
-```text
-Direct Figma automation
-        ↓
-Atomic writes صغيرة
-        ↓
-Verify actual nodes
-        ↓
-Adapt to page / plan limits
-        ↓
-Local Figma Development Plugin fallback
-```
-
 اقرأ **[شرط Figma النهائي](./docs/ar/FIGMA_REQUIRED_FINAL_OUTPUT.md)** و**[Figma Workflow بالعربي](./docs/ar/FIGMA_WORKFLOW.md)**.
 
 ---
 
 ## عندك هوية جاهزة وعاجبتك؟
 
-لا تعيد تصميمها فقط للحصول على Figma. استخدم **[Approved Identity → Editable Figma](./examples/APPROVED_IDENTITY_TO_FIGMA.md)** لتحويل نفس الاتجاه المعتمد إلى Production System قابل للتعديل.
+لا تعيد تصميمها فقط للحصول على Figma. استخدم **[هوية معتمدة → Editable Figma بالعربي](./examples/ar/APPROVED_IDENTITY_TO_FIGMA.md)** لتحويل نفس الاتجاه المعتمد إلى Production System قابل للتعديل.
 
 ---
 
@@ -250,54 +210,9 @@ Local Figma Development Plugin fallback
 
 ---
 
-## STRICT MODE
-
-`STRICT MODE` يفرض Discovery عند نقص الـbrief، قراءة الملفات قبل تكرار الأسئلة، عدم اختراع facts، بحث مناسب، stress tests، editable canonical sources، التحقق بعد Figma writes، وعدم التحول إلى صور فقط عند فشل automation.
-
-اقرأ **[STRICT MODE بالعربي](./docs/ar/STRICT_MODE.md)**.
-
----
-
-## تم اختباره على مشروع حقيقي
-
-تم تطوير النظام بشكل تكراري أثناء عمل فعلي. إحدى حالات الاختبار كانت منظومة سفر رقمية متعددة المنتجات، عربية/إنكليزية، RTL/LTR، مع UI/UX موجود، App Icons، Design Tokens ومتطلبات Figma editable handoff.
-
-اقرأ **[دراسة حالة Safra بالعربي](./case-studies/SAFRA_AR.md)**.
-
----
-
 ## حماية الـCanonical Core
 
 `MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md` محمي ببصمة SHA-256 موجودة في [`CORE_SHA256.txt`](./CORE_SHA256.txt). GitHub Actions يفحصها على Push وPull Request، لذلك يمكننا تطوير الشرح والأدوات والواجهات حوله بدون تعديل النسخة المجربة.
-
----
-
-## خريطة المشروع
-
-```text
-.
-├── MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md   # الملف الأصلي المجرب — لا يُعدّل
-├── README.md                                    # English
-├── README_AR.md                                 # العربية
-├── assets/                                      # الصور والأيقونات
-├── docs/
-│   ├── FIGMA_REQUIRED_FINAL_OUTPUT.md
-│   └── ar/                                      # الشرح العربي
-├── examples/
-├── templates/
-├── case-studies/
-├── figma/importer-template/
-└── .github/workflows/
-```
-
----
-
-## الترخيص والاستقلالية
-
-- **Canonical operating specification والتوثيق:** CC BY 4.0
-- **Code / automation examples:** MIT
-
-هذا مشروع Open Source مستقل، وليس مشروعًا رسميًا من OpenAI أو ChatGPT أو Figma أو Apple أو Google أو Android.
 
 ---
 
