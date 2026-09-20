@@ -1,72 +1,93 @@
 # ChatGPT Brand Identity OS
 
-> **From a rough idea to a complete professional visual identity and editable Figma handoff — inside a normal ChatGPT conversation.**
+**English | [العربية](./README_AR.md)**
+
+> **From a rough idea to a complete professional visual identity and a real editable Figma handoff — inside a normal ChatGPT conversation.**
 
 [![Canonical Core](https://img.shields.io/badge/core-canonical%20%26%20immutable-14201D)](./MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md)
 [![For ChatGPT](https://img.shields.io/badge/designed%20for-ChatGPT-10A37F)](https://chatgpt.com/)
+[![Figma Required](https://img.shields.io/badge/final%20deliverable-editable%20Figma-A259FF)](./docs/FIGMA_REQUIRED_FINAL_OUTPUT.md)
 [![Not Codex](https://img.shields.io/badge/not%20for-Codex-D53A27)](#chatgpt-not-codex)
 [![Core Integrity](https://github.com/yazanmg/chatgpt-brand-identity-os/actions/workflows/verify-core.yml/badge.svg)](https://github.com/yazanmg/chatgpt-brand-identity-os/actions/workflows/verify-core.yml)
 
 ---
 
 > [!IMPORTANT]
-> ## This project is for normal ChatGPT conversations — **NOT Codex**
+> ## For normal ChatGPT conversations — **NOT Codex**
 >
-> Upload the canonical `.md` file into a regular ChatGPT conversation together with whatever you already know about your project. The system guides the conversation through discovery, research, strategy, creative exploration, production, editable Figma, QA, and professional handoff.
+> Upload the canonical operating specification into a regular ChatGPT conversation together with whatever you already know about your project. The system guides the conversation through discovery, research, strategy, creative exploration, production, editable Figma, QA, and professional handoff.
 >
 > It is **not** an `AGENTS.md`, coding-agent rule set, repository instruction file, or Codex workflow.
+
+> [!WARNING]
+> ## The final deliverable is Figma — a flat image is not completion
+>
+> A generated brand board, moodboard, PNG/JPG, PDF, contact sheet, or screenshot can be used for exploration and approval, but it **must not be treated as the final result**.
+>
+> For the production workflow used by this repository, the final result must be a **real professional editable Figma Brand Identity Master File**, or — when direct Figma writing is technically blocked — a tested local Figma Development Importer that reconstructs the editable master inside Figma Desktop.
+>
+> Copy the mandatory rule from **[Figma Required Final Output](./docs/FIGMA_REQUIRED_FINAL_OUTPUT.md)** and send it together with the canonical operating specification.
+
+---
 
 ## What is this?
 
 **ChatGPT Brand Identity OS** is a tested, discovery-first operating specification for creating a complete professional visual identity with ChatGPT.
 
-It is not a one-shot logo prompt.
+It is not a one-shot logo prompt and it is not a prompt that should stop after generating a beautiful presentation image.
 
-It is designed to help ChatGPT behave more like a coordinated brand team: understand the project first, ask only the questions that matter, research the real context, explore distinct creative directions, systematize the selected direction, stress-test it, and continue until the work is actually usable by designers, developers, marketers, and production teams.
+The workflow is designed to help ChatGPT behave more like a coordinated brand team: understand the project first, ask only the questions that matter, research the real context, explore genuinely distinct creative directions, systematize the selected direction, stress-test it, convert it into production assets, and continue until another designer or developer can use the result without guessing.
 
 The canonical operating specification is:
 
 **[`MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md`](./MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md)**
 
-That file is intentionally preserved exactly as tested. The surrounding documentation explains how to use it; it does not rewrite the canonical core.
+That file is intentionally preserved **byte-for-byte exactly as tested**. The surrounding documentation adds usage guidance without rewriting the canonical core.
 
 ---
 
 ## Why this exists
 
-A typical AI branding request looks like this:
+A typical AI branding request looks like:
 
 > “Create a visual identity for my project.”
 
-That often ends with a logo concept, moodboard, a beautiful brand board, or a flattened PNG/PDF.
+A common result is:
 
-Those can be useful exploration artifacts — but they are not a complete brand identity system.
+```text
+Logo concept
+→ Moodboard
+→ Beautiful brand board
+→ PNG / PDF
+→ Stop
+```
 
-A production-ready identity may also need:
+That can be useful for exploration, but it is not a complete professional identity handoff.
 
-- a strategic foundation
+A production-ready identity may also require:
+
+- strategic foundation
 - audience and category understanding
 - brand architecture
-- multiple genuinely different creative territories
-- a full logo family
+- genuinely different creative territories
+- complete logo family
 - clear-space and minimum-size rules
 - color architecture
 - typography hierarchy
 - multilingual / RTL behavior
-- iconography
-- graphic language
+- iconography and graphic language
 - product-family logic
-- app icons and platform assets when relevant
+- app/platform assets where relevant
 - accessibility validation
-- real touchpoint testing
-- design tokens when relevant
+- real-touchpoint testing
+- design tokens where relevant
 - editable vectors
-- Figma Variables / Components / Styles when relevant
+- Figma Variables / Components / Styles
 - export-ready masters
 - documentation and governance
 - a handoff another professional can continue without guessing
 
-This repository exists to make that deeper workflow repeatable.
+This repository makes that deeper workflow repeatable.
 
 ---
 
@@ -81,47 +102,45 @@ This repository exists to make that deeper workflow repeatable.
 | Style preference first | Strategy and evidence first |
 | Random alternatives | Structurally distinct creative territories |
 | Mockup polish can hide weak marks | Functional stress tests before beauty shots |
-| Flat palette | Role-based color system; semantic tokens when relevant |
+| Flat palette | Role-based color system; semantic tokens where relevant |
 | English-first | Multilingual / RTL aware when required |
 | “Looks good” = done | Explicit completion gates + three QA passes |
-| PNG/PDF ending | Editable vector masters and professional handoff |
-| Figma described, not built | Editable Figma workflow with failure recovery |
+| PNG/PDF ending | Editable production assets + Figma handoff |
+| Figma described, not built | Editable Figma workflow + local importer fallback |
 
 ---
 
-## Quick Start
+# Quick Start
 
-### 1. Download the canonical file
-
-Download:
+## 1. Download the canonical file
 
 [`MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md`](./MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md)
 
-### 2. Open a normal ChatGPT conversation
+## 2. Open a normal ChatGPT conversation
 
 Do **not** start this as a Codex coding task.
 
-### 3. Upload the `.md` file
+## 3. Upload the canonical `.md` file
 
-Also upload anything you already have. For example:
+Also upload anything you already have, for example:
 
-- a project name
-- a one-sentence idea
+- project name
+- one-sentence idea
 - product brief
-- existing logo
+- current logo
 - UI/UX screenshots
 - Figma exports
-- current brand guidelines
+- existing guidelines
 - product documentation
 - website copy
 - design tokens
 - app icons
 - packaging
-- a multi-product map
+- multi-product architecture
 
 You do **not** need to prepare a professional brief first.
 
-### 4. Send this message
+## 4. Send the base start message
 
 ```text
 Use MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md as the governing operating specification for this project.
@@ -135,13 +154,37 @@ Then continue through the complete professional brand identity workflow, includi
 Use STRICT MODE.
 ```
 
-### 5. Continue the conversation normally
+## 5. Append the mandatory Figma completion rule
+
+Copy the rule from:
+
+**[`docs/FIGMA_REQUIRED_FINAL_OUTPUT.md`](./docs/FIGMA_REQUIRED_FINAL_OUTPUT.md)**
+
+This is the critical rule that prevents a generated image or brand board from being mistaken for the final handoff.
+
+The required end state is:
+
+```text
+Approved visual direction
+        ↓
+Production reconstruction
+        ↓
+Editable vectors / assets / system
+        ↓
+Professional editable Figma master
+        ↓
+QA + export-ready handoff
+```
+
+If direct Figma automation fails because of MCP/API limits, quota, account plan, connection problems, or unsupported writes, the workflow must **not** stop at PNG/PDF. It must fall back to a **local Figma Development Importer Plugin** that reconstructs the editable master inside Figma Desktop.
+
+## 6. Continue the conversation normally
 
 If important information is missing, ChatGPT should ask focused questions instead of inventing answers or jumping directly to aesthetics.
 
-Once the brief is sufficiently clear, the workflow progresses into research, strategy, creative territories, production, and handoff.
+Once the brief is sufficiently clear, the workflow progresses through research, strategy, creative territories, production, Figma, and handoff.
 
-See **[How to Use](./docs/HOW_TO_USE.md)** for the detailed workflow.
+Detailed guide: **[How to Use](./docs/HOW_TO_USE.md)**.
 
 ---
 
@@ -175,11 +218,13 @@ Real-touchpoint validation
         ↓
 Accessibility / localization / production QA
         ↓
-Design tokens + platform assets when relevant
+Design tokens + platform assets where relevant
         ↓
 Canonical editable masters
         ↓
-Editable Figma workflow when appropriate
+Professional editable Figma
+        ↓
+Local importer fallback if direct Figma writing is blocked
         ↓
 Professional package + documentation
         ↓
@@ -192,36 +237,32 @@ FINAL
 
 ## Start with almost nothing
 
-The workflow is intentionally able to begin with very sparse input.
-
-For example:
+The workflow can begin with very sparse input, such as:
 
 ```text
 I am building a coffee delivery service for university students.
 ```
 
-Instead of immediately inventing a color palette and logo, the system should progressively understand the offer, audience, decision context, alternatives, differentiation, desired perception, priority touchpoints, constraints, and definition of success.
+Instead of immediately inventing a logo and palette, the system progressively understands the offer, audience, decision context, alternatives, differentiation, desired perception, priority touchpoints, constraints, and definition of success.
 
-The interview is adaptive: it asks only the highest-value unresolved question, then chooses the next question based on the answer.
+The interview is adaptive: every answer influences what should be asked next.
 
-See **[Discovery Workflow](./docs/DISCOVERY_WORKFLOW.md)**.
+Read **[Discovery Workflow](./docs/DISCOVERY_WORKFLOW.md)**.
 
 ---
 
 ## Three-pass research
 
-The system separates research into three different jobs:
-
 **Pass A — Category, audience, and context**  
 Understand the world the brand enters.
 
 **Pass B — Visual landscape and differentiation**  
-Understand conventions, clichés, confusion risks, and whitespace.
+Understand conventions, clichés, confusion risks, and visual whitespace.
 
 **Pass C — Platform, production, accessibility, and implementation**  
 Verify the real constraints the final identity has to survive.
 
-This prevents “trend browsing” from being mistaken for research.
+This prevents trend browsing from being mistaken for real research.
 
 ---
 
@@ -229,9 +270,7 @@ This prevents “trend browsing” from being mistaken for research.
 
 When broad exploration is justified, the workflow creates multiple **structurally different** creative territories — not the same logo in three colors.
 
-Each direction should be compared on the same benchmark surfaces so presentation polish cannot unfairly favor one option.
-
-The selected direction is then developed into the production system.
+Each direction is compared on equivalent benchmark surfaces. The user selects or corrects the direction before the system is fully productionized.
 
 ---
 
@@ -239,34 +278,49 @@ The selected direction is then developed into the production system.
 
 A core lesson behind this project is simple:
 
-> A beautiful brand board is not the same thing as a professional editable identity master.
+> **A beautiful brand board is a presentation artifact. It is not the editable production master.**
 
-When Figma is appropriate, the workflow aims for real editable structure:
+The Figma handoff should use real editable structure where applicable:
 
 - vector masters
-- organized Pages / Sections
-- Components
+- organized Pages and/or Sections
+- Frames
+- Components and useful Variants
 - Variables
-- Styles
-- production assets
+- Paint/Text Styles
+- reusable graphic elements
+- product/app icon masters
+- design tokens where relevant
 - export settings
-- source-of-truth relationships
+- clean Master Assets separated from presentation frames
 
-If remote Figma automation is unreliable or quota-limited, the operating specification defines a recovery path instead of downgrading the handoff to screenshots:
+Recovery path:
 
 ```text
 Direct Figma automation
         ↓
 Small atomic writes
         ↓
-Verify after writes
+Verify actual nodes after writes
         ↓
-Adapt to plan/page limits with Sections
+Adapt to page / plan limits with Sections
         ↓
 Local Figma Development Plugin fallback when needed
 ```
 
-Read **[Figma Workflow](./docs/FIGMA_WORKFLOW.md)**.
+Read **[Mandatory Figma Final Deliverable](./docs/FIGMA_REQUIRED_FINAL_OUTPUT.md)** and **[Figma Workflow](./docs/FIGMA_WORKFLOW.md)**.
+
+---
+
+## Approved identity already looks great?
+
+Do **not** restart branding just to obtain a Figma file.
+
+Use the dedicated workflow:
+
+**[Approved Identity → Editable Figma](./examples/APPROVED_IDENTITY_TO_FIGMA.md)**
+
+Its job is to preserve the approved creative direction and convert that exact work into a structured professional production system.
 
 ---
 
@@ -283,29 +337,29 @@ Read **[Figma Workflow](./docs/FIGMA_WORKFLOW.md)**.
 | `AGENTS.md` replacement | ❌ |
 | Coding-agent system prompt | ❌ |
 
-Why? Brand identity work here is intentionally conversational. The user and ChatGPT progressively discover, inspect, compare, correct, approve, and refine the identity together.
+Brand identity work here is intentionally conversational: the user and ChatGPT progressively discover, inspect, compare, correct, approve, and refine the identity together.
+
+Read **[ChatGPT, Not Codex](./docs/CHATGPT_NOT_CODEX.md)**.
 
 ---
 
 ## STRICT MODE
 
-`STRICT MODE` raises the quality bar.
+`STRICT MODE` raises the quality bar. Among other things, it requires:
 
-Among other things, it requires that:
+- discovery when the brief is insufficient
+- inspection of supplied evidence before repetitive questions
+- no invented business facts
+- research at the depth the project requires
+- explicit reason for skipped phases
+- re-verification of changing standards
+- functional logo stress tests
+- canonical editable sources
+- verification after Figma writes
+- no downgrade to images when remote automation fails
+- `FINAL` only after applicable completion gates pass
 
-- discovery happens when the brief is insufficient
-- supplied evidence is inspected before asking repetitive questions
-- missing business facts are not invented
-- research is completed at the depth the project requires
-- skipped phases require an explicit reason
-- important standards are re-verified against current official requirements
-- logo directions pass functional stress tests before selection
-- final assets have canonical editable sources
-- Figma writes are verified when automation is used
-- remote automation failure does not justify abandoning editable handoff
-- `FINAL` is forbidden until the applicable review gates pass
-
-See **[STRICT MODE](./docs/STRICT_MODE.md)**.
+Read **[STRICT MODE](./docs/STRICT_MODE.md)**.
 
 ---
 
@@ -313,11 +367,9 @@ See **[STRICT MODE](./docs/STRICT_MODE.md)**.
 
 This operating specification was developed iteratively rather than written as a single theoretical prompt.
 
-Multiple earlier workflows were tried and compared during real brand-identity work. The canonical file in this repository is the version that produced the strongest overall result in that testing, so it is deliberately preserved unchanged.
+Multiple earlier workflows were tried and compared during real identity work. The exact canonical file in this repository is the version that produced the strongest overall result in that testing, so it is deliberately preserved unchanged.
 
-One of the real test cases involved a bilingual, multi-product digital travel ecosystem with existing UI/UX, multiple product roles, RTL/LTR requirements, app icons, design tokens, and editable Figma handoff requirements.
-
-The process helped move the work from existing product evidence through audit, strategy, creative directions, systemization, production assets, and an editable Figma master.
+One real test case involved a bilingual multi-product digital travel ecosystem with existing UI/UX, Arabic + English, RTL/LTR, app icons, tokens, and editable Figma handoff requirements.
 
 See the sanitized **[SAFRA case study](./case-studies/SAFRA.md)**.
 
@@ -325,21 +377,17 @@ See the sanitized **[SAFRA case study](./case-studies/SAFRA.md)**.
 
 ## Canonical core integrity
 
-The canonical file is intentionally immutable for this release:
+The tested core is intentionally immutable for this release:
 
 ```text
 MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md
 ```
 
-Its SHA-256 fingerprint is stored in:
+Its SHA-256 fingerprint is stored in [`CORE_SHA256.txt`](./CORE_SHA256.txt).
 
-[`CORE_SHA256.txt`](./CORE_SHA256.txt)
+GitHub Actions verifies the fingerprint on pushes and pull requests. A one-byte change causes the integrity check to fail.
 
-GitHub Actions verifies the fingerprint on pushes and pull requests. If even one byte changes, the integrity check fails.
-
-Why? Reproducibility. If the tested core keeps changing silently, results cannot be compared meaningfully.
-
-Improvements should first be proposed as documentation, experiments, issues, or future version work — never silently patched into the canonical release.
+This protects reproducibility: documentation and companion rules can improve without silently changing the prompt that produced the tested result.
 
 ---
 
@@ -348,37 +396,37 @@ Improvements should first be proposed as documentation, experiments, issues, or 
 ```text
 .
 ├── MASTER_BRAND_IDENTITY_OPERATING_SYSTEM.md   # canonical tested core — do not edit
-├── CORE_SHA256.txt                              # integrity fingerprint
-├── README.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── LICENSE.md
-├── NOTICE.md
+├── CORE_SHA256.txt
+├── README.md                                    # English
+├── README_AR.md                                 # العربية
 │
 ├── docs/
+│   ├── FIGMA_REQUIRED_FINAL_OUTPUT.md
 │   ├── HOW_TO_USE.md
 │   ├── HOW_IT_WORKS.md
 │   ├── DISCOVERY_WORKFLOW.md
 │   ├── FIGMA_WORKFLOW.md
 │   ├── STRICT_MODE.md
-│   └── FAQ.md
-│
-├── templates/
-│   ├── BRAND_BRIEF_TEMPLATE.md
-│   ├── AI_BRAND_RULES_TEMPLATE.md
-│   ├── DECISIONS_TEMPLATE.md
-│   └── ASSET_MANIFEST_TEMPLATE.md
+│   ├── FAQ.md
+│   └── ar/                                      # Arabic documentation
 │
 ├── examples/
 │   ├── MINIMAL_INPUT.md
 │   ├── EXISTING_PRODUCT.md
-│   └── MULTILINGUAL_PROJECT.md
+│   ├── MULTILINGUAL_PROJECT.md
+│   └── APPROVED_IDENTITY_TO_FIGMA.md
 │
+├── templates/
 ├── case-studies/
-│   └── SAFRA.md
+│   ├── SAFRA.md
+│   └── SAFRA_AR.md
+│
+├── figma/
+│   └── importer-template/
 │
 └── .github/
     ├── workflows/verify-core.yml
+    ├── workflows/repo-qa.yml
     ├── CODEOWNERS
     ├── ISSUE_TEMPLATE/
     └── pull_request_template.md
@@ -386,18 +434,16 @@ Improvements should first be proposed as documentation, experiments, issues, or 
 
 ---
 
-## What this project does **not** promise
+## What this project does not promise
 
 This is an operating specification for AI-assisted creative work — not an autonomous branding agency and not a legal certification system.
 
-Human judgment still matters.
-
-In particular:
+Human judgment still matters. In particular:
 
 - generated marks still need appropriate trademark clearance before commercial launch
 - font, image, icon, and third-party asset licenses must be confirmed
-- current platform rules should be re-verified when used
-- accessibility checks should match the real product and media
+- changing platform rules should be re-verified
+- accessibility checks must match the real product and media
 - AI-generated creative work should be reviewed for originality and production quality
 - Figma/API capabilities vary by account, plan, and available tools
 
@@ -407,18 +453,9 @@ In particular:
 
 Contributions are welcome, but the tested canonical file is intentionally protected.
 
-Useful contributions include:
+Useful contributions include model-compatibility results, reproducible workflow improvements, better discovery methods, accessibility/RTL improvements, Figma reliability improvements, production case studies, documentation, and verified platform-rule updates.
 
-- documented model-compatibility results
-- reproducible workflow improvements
-- better discovery methods
-- accessibility / RTL / multilingual improvements
-- Figma reliability improvements
-- production case studies
-- better documentation
-- platform-rule updates
-
-Read **[CONTRIBUTING.md](./CONTRIBUTING.md)** before opening a PR.
+Read **[CONTRIBUTING.md](./CONTRIBUTING.md)**.
 
 ---
 
@@ -435,15 +472,14 @@ See **[LICENSE.md](./LICENSE.md)**.
 
 This is an independent open-source project. It is not an official OpenAI, ChatGPT, Figma, Apple, Google, or Android project and is not endorsed by those companies.
 
-“ChatGPT” is used descriptively to identify the intended conversational product environment.
+“ChatGPT” and “Figma” are used descriptively to identify the intended product environments.
 
 ---
 
 ## Project status
 
 **Public release:** `v1.0.0`  
-**Canonical core:** tested / stable  
+**Canonical core:** tested / stable / immutable for this release  
 **Primary environment:** normal ChatGPT conversation  
+**Required production end state:** editable Figma master or tested local importer fallback  
 **Codex:** not the intended environment
-
-If you use the system for a real project, share what worked, what failed, and what the final handoff looked like. Reproducible case studies are especially valuable.
